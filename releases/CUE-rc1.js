@@ -27,7 +27,6 @@
       if (typeof js == 'string') {
           s = document.createElement('script');
           s.src = js;
-          console.log(js);
           s.onload = function(){ that.go() };
           s.onreadystatechange = function(){ if (/^(complete|loaded)$/i.test(s.readyState)) that.go() };
           head.appendChild(s);
