@@ -1,6 +1,7 @@
-[CUE.js](https://github.com/pagefold/CUE.js) - Current Version, Release Candidate 1 (rc1)
+[CUE.js](https://github.com/pagefold/CUE.js)
 ===========================================
 A minimal library for loading Javascripts and executing blocks of code in a specific order.
+Current Version: Release Candidate 1 (rc1)
 
 
 Usage Example
