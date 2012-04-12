@@ -5,17 +5,17 @@ A minimal library for loading Javascripts and executing blocks of code in a spec
 
 Usage Example
 -------------
-####  `var scriptList = new CUE('/js/jquery.js', '/js/jquery-ui.js');`  ####
-####  `scriptList.push('/js/swfobject.js');`  ####
-####  `scriptList.push(function(){`  ####
-####  `  // do something here`  ####
-####  `});`  ####
-####  `scriptList.go();`  ####
+```javascript
+var scriptList = new CUE('/js/jquery.js', '/js/jquery-ui.js');
+scriptList.push('/js/swfobject.js');
+scriptList.push(function(){
+  // do something here
+});
+scriptList.go();
+```
 
-
-Compatibility
--------------
-Tested in the following browsers:
+Tested Compatibility
+--------------------
 1. Chrome
 2. Firefox 4+
 3. IE 7+
