@@ -1,7 +1,10 @@
 [CUE.js](https://github.com/pagefold/CUE.js)
 ===========================================
 A minimal library for loading Javascripts and executing blocks of code in a specific order.
-Current Version: Release Candidate 1 (rc1)
+
+**Current Version:** Release Candidate 1 (rc1)
+
+**Author:** Brandon McKinney - *pagefold[AT]gmail*
 
 
 Usage Example
@@ -24,7 +27,9 @@ Tested Compatibility
 
 TODO
 ----
-1. Add todo list.
+1. Create example usage file(s).
+2. Test what current behavior is when same file loaded multiple times.
+3. Add check to see if file is already loaded.
 
 
 License
